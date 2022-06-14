@@ -1,7 +1,8 @@
 .App {
-  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button, input[type="submit"]{
+  padding: 10px;
+  background: rgb(3, 86, 241);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+  margin: 40px;
+}
+
+h1 {
+  margin: 40px;
+}
+
+h4 {
+  margin: 40px;
+}
+
+a {
+  text-decoration: none;
 }
